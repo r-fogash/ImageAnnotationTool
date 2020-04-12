@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" identifier="MainMenu" id="ZWP-nc-Y9H">
+            <items>
+                <menuItem title="ImageMarkTool" id="VGc-Ef-NW1">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="ImageMarkTool" systemMenu="apple" id="bTm-xb-j5D">
+                        <items>
+                            <menuItem title="About ImageMarkTool" id="e57-ml-E57">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="zy0-la-yYC"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="KfU-RG-EFB"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="ycj-bC-dPE"/>
+                            <menuItem isSeparatorItem="YES" id="LgD-mC-4XY"/>
+                            <menuItem title="Services" id="1UT-Py-2gI">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="rr7-KO-sXI"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4Lr-pA-UAg"/>
+                            <menuItem title="Hide ImageMarkTool" keyEquivalent="h" id="Kwa-y6-oJe">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="GN8-LD-sFy"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="ets-6G-yj4">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="YGD-SU-4Ct"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="ENM-8S-EUE">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="HGg-7E-D7g"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="QQi-Jf-cKr"/>
+                            <menuItem title="Quit ImageMarkTool" keyEquivalent="q" id="HZK-Dc-Mc7">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="4mt-4r-z9A"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="BsI-cc-9sG">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" autoenablesItems="NO" id="YYp-Sw-z1K">
+                        <items>
+                            <menuItem title="Open…" keyEquivalent="o" id="AbD-Ge-LEj">
+                                <connections>
+                                    <action selector="openFolder:" target="-1" id="2ny-Nd-0Pw"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Manage labels" id="ZPE-5q-Y5g">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="showManageLabels:" target="-1" id="6nY-vB-3Cs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="WWl-Nn-Jsb"/>
+                            <menuItem title="Close" keyEquivalent="w" id="22L-Ve-Yz9">
+                                <connections>
+                                    <action selector="performClose:" target="-1" id="Ru5-Pf-QaD"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Save As…" keyEquivalent="S" id="UPS-Tp-AYu">
+                                <connections>
+                                    <action selector="saveLabelList:" target="-1" id="xjp-SY-HZp"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-172" y="84"/>
+        </menu>
+    </objects>
+</document>
