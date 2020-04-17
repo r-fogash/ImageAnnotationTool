@@ -7,9 +7,13 @@ class ImageTableCellView: NSTableCellView {
     override func awakeFromNib() {
         super.awakeFromNib()
         previewImageView.imageScaling = .scaleProportionallyUpOrDown
+        if layer == nil {
+            layer = CALayer()
+        }
     }
     
-    public func configure(imageURL: URL) {
-        previewImageView.image = NSImage(contentsOfFile: imageURL.path)
+    public func configure(imageModel: ImageModelProtocol) {
+        previewImageView.image = NSImage(contentsOfFile: imageModel.imageURL.path)
+        layer?.backgroundColor = (imageModel.label != nil ? NSColor(named: "processedColor") : NSColor(named: "notProcessedColor"))!.cgColor
     }
 }

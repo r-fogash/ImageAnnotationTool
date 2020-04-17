@@ -16,7 +16,7 @@ class ImageTitleTableCellView: NSTableCellView {
         textField?.stringValue = imageModel.imageURL.lastPathComponent
         textField?.toolTip = imageModel.imageURL.absoluteString
         
-        layer?.backgroundColor = imageModel.label != nil ? NSColor.green.cgColor : NSColor.red.cgColor
+        layer?.backgroundColor = (imageModel.label != nil ? NSColor(named: "processedColor") : NSColor(named: "notProcessedColor"))!.cgColor
         
         label.stringValue = imageModel.label ?? "?"
     }

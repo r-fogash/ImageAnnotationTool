@@ -108,7 +108,7 @@ extension ViewController: NSTableViewDataSource {
         
         if (column.identifier == imageColumnIdentifier) {
             let cell = tableView.makeView(withIdentifier: imageCellIdentifier, owner: nil) as! ImageTableCellView
-            cell.configure(imageURL: imageThumbnails[row].imageURL)
+            cell.configure(imageModel: imageThumbnails[row])
             return cell
         }
         else if (column.identifier == imageTitleColumnIdentifier) {
