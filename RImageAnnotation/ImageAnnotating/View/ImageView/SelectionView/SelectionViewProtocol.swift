@@ -1,10 +1,3 @@
-//
-//  SelectionViewProtocol.swift
-//  ImageMarkTool
-//
-//  Created by Robert on 05.04.2020.
-//  Copyright © 2020 Robert. All rights reserved.
-//
 import AppKit
 
 protocol SelectionViewProtocol: class {

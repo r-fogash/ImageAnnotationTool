@@ -1,5 +1,5 @@
 import XCTest
-@testable import ImageMarkTool
+@testable import RImageAnnotation
 
 class AnnotationListDidChangeTests: XCTestCase {
 

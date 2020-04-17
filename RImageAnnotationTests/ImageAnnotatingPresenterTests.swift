@@ -1,7 +1,7 @@
 import XCTest
-@testable import ImageMarkTool
+@testable import RImageAnnotation
 
-class ImageMarkToolTests: XCTestCase {
+class ImageAnnotatingPresenterTests: XCTestCase {
 
     var presenter: ImageAnnotatingPresenter!
     var view: ImageAnnotatingViewSpy!

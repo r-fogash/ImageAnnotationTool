@@ -67,7 +67,7 @@
 		E17E2A2F243E19F400DC3A6B /* ClearSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E2A2E243E19F400DC3A6B /* ClearSelectionTests.swift */; };
 		E17E2A31243E1B6000DC3A6B /* FetchSelectionForImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E2A30243E1B6000DC3A6B /* FetchSelectionForImageTests.swift */; };
 		E17E2A33243E1DF700DC3A6B /* AnnotationListDidChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E2A32243E1DF700DC3A6B /* AnnotationListDidChangeTests.swift */; };
-		E18524812435E2F200C38B24 /* ImageMarkPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18524802435E2F200C38B24 /* ImageMarkPresenterTests.swift */; };
+		E18524812435E2F200C38B24 /* ImageAnnotatingPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18524802435E2F200C38B24 /* ImageAnnotatingPresenterTests.swift */; };
 		E18524892435E33000C38B24 /* ImageAnnotatingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18524882435E33000C38B24 /* ImageAnnotatingPresenter.swift */; };
 		E185248A2435E36200C38B24 /* ImageAnnotatingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18524882435E33000C38B24 /* ImageAnnotatingPresenter.swift */; };
 		E185248D2435F70A00C38B24 /* RetriveImageFilesFromFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185248C2435F70A00C38B24 /* RetriveImageFilesFromFolder.swift */; };
@@ -133,7 +133,6 @@
 		E133ECD2216F3F94005B3219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E133ECD5216F3F94005B3219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E133ECD7216F3F94005B3219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E133ECD8216F3F94005B3219 /* ImageMarkTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageMarkTool.entitlements; sourceTree = "<group>"; };
 		E133ECDE216F5785005B3219 /* ImageTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableCellView.swift; sourceTree = "<group>"; };
 		E133ECE3216F61E8005B3219 /* ImageTitleTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleTableCellView.swift; sourceTree = "<group>"; };
 		E13D31632190874A00A3789B /* ImageAnnotatingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotatingSession.swift; sourceTree = "<group>"; };
@@ -156,7 +155,7 @@
 		E17E2A30243E1B6000DC3A6B /* FetchSelectionForImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSelectionForImageTests.swift; sourceTree = "<group>"; };
 		E17E2A32243E1DF700DC3A6B /* AnnotationListDidChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationListDidChangeTests.swift; sourceTree = "<group>"; };
 		E185247E2435E2F200C38B24 /* RImageAnnotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RImageAnnotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18524802435E2F200C38B24 /* ImageMarkPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMarkPresenterTests.swift; sourceTree = "<group>"; };
+		E18524802435E2F200C38B24 /* ImageAnnotatingPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotatingPresenterTests.swift; sourceTree = "<group>"; };
 		E18524822435E2F200C38B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E18524882435E33000C38B24 /* ImageAnnotatingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotatingPresenter.swift; sourceTree = "<group>"; };
 		E185248C2435F70A00C38B24 /* RetriveImageFilesFromFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveImageFilesFromFolder.swift; sourceTree = "<group>"; };
@@ -267,7 +266,6 @@
 				E1D2BAB621734F2400E30182 /* ManageLabels */,
 				E1CE058F243743C00008995C /* main.swift */,
 				E133ECCE216F3F92005B3219 /* AppDelegate.swift */,
-				E133ECD8216F3F94005B3219 /* ImageMarkTool.entitlements */,
 			);
 			path = RImageAnnotation;
 			sourceTree = "<group>";
@@ -335,7 +333,7 @@
 				E1172CDB243CA795003166D7 /* TestsHelper.swift */,
 				E1CE0583243604A40008995C /* otherFiles */,
 				E18524912435F7CA00C38B24 /* images */,
-				E18524802435E2F200C38B24 /* ImageMarkPresenterTests.swift */,
+				E18524802435E2F200C38B24 /* ImageAnnotatingPresenterTests.swift */,
 				E18524822435E2F200C38B24 /* Info.plist */,
 				E185248E2435F71C00C38B24 /* RetriveImageFilesFromFolderTests.swift */,
 				E1CE058C24366A510008995C /* MouseControllerTests.swift */,
@@ -652,7 +650,7 @@
 				E12A504E2441CC3C00A5727F /* LabelListDidChangeTests.swift in Sources */,
 				E16C7A422439EB2A008B267E /* CoordinateTransform.swift in Sources */,
 				E1172CDC243CA795003166D7 /* TestsHelper.swift in Sources */,
-				E18524812435E2F200C38B24 /* ImageMarkPresenterTests.swift in Sources */,
+				E18524812435E2F200C38B24 /* ImageAnnotatingPresenterTests.swift in Sources */,
 				E1CE059E2437523E0008995C /* ImageAnnotatingSession.swift in Sources */,
 				E1172CBC243A193E003166D7 /* AnnotationListSerialisationProtocol.swift in Sources */,
 				E17E2A26243DF98100DC3A6B /* ApplySelectionToImage.swift in Sources */,
@@ -819,7 +817,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ImageMarkTool/ImageMarkTool.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -829,7 +826,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robi.ImageMarkTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robi.RImageAnnotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -840,7 +837,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ImageMarkTool/ImageMarkTool.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -850,7 +846,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robi.ImageMarkTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robi.RImageAnnotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

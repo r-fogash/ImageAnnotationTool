@@ -11,11 +11,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" identifier="MainMenu" id="ZWP-nc-Y9H">
             <items>
-                <menuItem title="ImageMarkTool" id="VGc-Ef-NW1">
+                <menuItem title="RImageAnnotation" id="VGc-Ef-NW1">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="ImageMarkTool" systemMenu="apple" id="bTm-xb-j5D">
+                    <menu key="submenu" title="RImageAnnotation" systemMenu="apple" id="bTm-xb-j5D">
                         <items>
-                            <menuItem title="About ImageMarkTool" id="e57-ml-E57">
+                            <menuItem title="About RImageAnnotation" id="e57-ml-E57">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="zy0-la-yYC"/>
@@ -29,7 +29,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="rr7-KO-sXI"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4Lr-pA-UAg"/>
-                            <menuItem title="Hide ImageMarkTool" keyEquivalent="h" id="Kwa-y6-oJe">
+                            <menuItem title="Hide RImageAnnotation" keyEquivalent="h" id="Kwa-y6-oJe">
                                 <connections>
                                     <action selector="hide:" target="-1" id="GN8-LD-sFy"/>
                                 </connections>
@@ -47,7 +47,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="QQi-Jf-cKr"/>
-                            <menuItem title="Quit ImageMarkTool" keyEquivalent="q" id="HZK-Dc-Mc7">
+                            <menuItem title="Quit RImageAnnotation" keyEquivalent="q" id="HZK-Dc-Mc7">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="4mt-4r-z9A"/>
                                 </connections>
